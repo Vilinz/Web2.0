@@ -1,0 +1,213 @@
+#gamebody{
+  height: 408px;
+  width: 408px;
+  margin: auto;
+  position: relative;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+#begin{
+  text-align: center;
+}
+button{
+  width: 80px;
+  height: 40px;
+  background-color: #4286F6;
+}
+
+.panda{
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border: 1px solid #C5C5C5;
+  background-image: url(panda.jpg);
+  background-size: 392px 392px;
+  background-color: gray;
+}
+
+#p1{
+  background-position: 0px 0px;
+}
+
+.p1{
+  top: 0px;
+  left: 0px;
+}
+
+#p2{
+  background-position: -98px 0px;
+}
+
+.p2{
+  top: 0px;
+  left: 102px;
+}
+
+#p3{
+  background-position: -196px 0px;
+}
+
+.p3{
+  top: 0px;
+  left: 204px;
+}
+
+#p4{
+  background-position: -294px 0px;
+}
+
+.p4{
+  top: 0px;
+  left: 306px;
+}
+
+#p5{
+  background-position: 0px -98px;
+}
+
+.p5{
+  top: 102px;
+  left: 0px;
+}
+
+#p6{
+  background-position: -98px -98px;
+}
+
+.p6{
+  top: 102px;
+  left: 102px;
+}
+
+#p7{
+  background-position: -196px -98px;
+}
+
+.p7{
+  top: 102px;
+  left: 204px;
+}
+
+#p8{
+  background-position: -294px -98px;
+}
+
+.p8{
+  top: 102px;
+  left: 306px;
+}
+
+#p9{
+  background-position: 0px -196px;
+}
+
+.p9{
+  top: 204px;
+  left: 0px;
+}
+
+#p10{
+  background-position: -98px -196px;
+}
+
+.p10{
+  top: 204px;
+  left: 102px;
+}
+
+#p11{
+  background-position: -196px -196px;
+}
+
+.p11{
+  top: 204px;
+  left: 204px;
+}
+
+#p12{
+  background-position: -294px -196px;
+}
+
+.p12{
+  top: 204px;
+  left: 306px;
+}
+
+#p13{
+  background-position: 0px -294px;
+}
+
+.p13{
+  top: 306px;
+  left: 0px;
+}
+
+#p14{
+  background-position: -98px -294px;
+}
+
+.p14{
+  top: 306px;
+  left: 102px;
+}
+
+#p15{
+  background-position: -196px -294px;
+}
+
+#p16{
+  opacity: 0;
+  background-position: -253px -252px;
+}
+
+.p15{
+  top: 306px;
+  left: 204px;
+}
+
+.p16{
+  top: 306px;
+  left: 306px;
+}
+
+.panda:hover{
+  transform: scale(1.03);
+}
+/*
+#tip{
+  height: 30px;
+  width: 80px;
+  text-align: center;
+  margin: auto;
+  color: #1EFF00;
+  font-size: 40px;
+  text-shadow: #78C3E0 3px 3px 3px;
+}
+*/
+#head1{
+  text-align: center;
+  font-size: 40px;
+}
+
+#result{
+  text-align: center;
+}
+
+#stepShow,#tip{
+  border:2px solid gray;
+  width: 50px;
+  height: 35px;
+}
+
+#tip{
+  width: 150px;
+}
+
+input{
+  color: #2FB1D8;
+  font-size: 30px;
+  text-shadow: #D177BE 2px 2px 2px
+}

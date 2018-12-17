@@ -1,0 +1,256 @@
+
+#bottom-positioner{
+  position: absolute;
+  width: 600px;
+  height: 900px;
+  overflow: hidden;
+  left: 30%;
+}
+
+li{
+  list-style-type: none;
+}
+
+#info-bar{
+  position: absolute;
+  background-color: #666666;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  left: 50%;
+  top: 30%;
+  opacity: 0;
+  overflow: hidden;
+}
+
+#button:hover #info-bar{
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  left: 42%;
+  top: 14%;
+  opacity: 1;
+}
+
+#info-bar{
+  transition: all 1s ease-in-out 200ms;
+}
+
+.button{
+  list-style-type: none;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 30%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.button img{
+  position: absolute;
+  margin: auto;
+  top: 20%;
+  left: 20%;
+}
+
+.apb{
+  position: absolute;
+  background: url(assets/images/atplus_white.png) no-repeat 50% 50% #7171C6;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  left: 50%;
+  top: 30%;
+  background-size: 70%;
+  opacity: 0.4;
+  transition: all 1s ease-in-out 200ms;
+}
+
+#button:hover .apb{
+  background: url(assets/images/atplus_green.png) no-repeat 50% 50% #7171C6;
+  transform: scale(1.5);
+  background-size: 70%;
+  opacity: 1;
+}
+
+.mask{
+  background: url(assets/images/mask.png) no-repeat 50% 50%;
+  background-size: 50%;
+  left: 50%;
+  bottom:9%;
+  transition: all 1s ease-in-out 200ms;
+}
+
+#button:hover .mask {
+  background-color: #666666;
+  transform: translate(-60px, -30px);
+}
+
+.history {
+  background: url(assets/images/history.png) no-repeat 50% 50%;
+  background-size: 50%;
+  left: 50%;
+  bottom: 9%;
+  transition: all 1s ease-in-out 200ms;
+}
+
+#button:hover .history {
+  background-color: #666666;
+  transform: translate(-70px, 10px);
+}
+
+.message {
+  background: url(assets/images/message.png) no-repeat 50% 50%;
+  background-size: 50%;
+  opacity: 0;
+  left: 50%;
+  bottom: 9%;
+  overflow: visible;
+  transition: all 1s ease-in-out 200ms;
+}
+
+#button:hover .message {
+  background-color: #666666;
+  transform: translate(-50px, 50px);
+  opacity: 1;
+}
+
+.setting {
+  background: url(assets/images/setting.png) no-repeat 50% 50%;
+  background-size: 50%;
+  opacity: 0;
+  left: 50%;
+  bottom: 9%;
+  transition: all 1s ease-in-out 200ms;
+}
+
+#button:hover .setting {
+  background-color: #666666;
+  transform: translate(-10px, 70px);
+  opacity: 1;
+}
+
+.sign {
+  background: url(assets/images/signin.png) no-repeat 50% 50%;
+  background-size: 50%;
+  opacity: 0;
+  left: 50%;
+  bottom: 9%;
+  transition: all 1s ease-in-out 200ms;
+
+}
+
+#button:hover .sign {
+  background-color: #666666;
+  transform: translate(30px, 60px);
+  opacity: 1;
+}
+
+.unread {
+  display: inline-block;
+  position: absolute;
+  left:24px;
+  bottom: 20px;
+  background-color:white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  line-height: 20px; 
+  text-align: center;
+  transition: all 1s ease-in-out 200ms;
+  color: white;
+  transition: all 1s ease-in-out 200ms;
+}
+
+#button:hover .unread{
+  background-color: red;
+}
+
+.user{
+  position: absolute;
+  top: 0;
+  left: 20%;
+  transition: all 1s ease-in-out 200ms;
+}
+
+.comment{
+  left: 30%;
+  top: 30%;
+  position: absolute;
+  transition: all 1s ease-in-out 200ms;
+}
+
+#button:hover .user{
+  left: 30%;
+  top: 10%;
+}
+
+.user span{
+  margin-left: 5px;
+  font-size: 0;
+  color: white;
+  opacity: 0;
+  transition: all 1s ease-in-out 200ms;
+}
+
+#button:hover .user span{
+  margin-left: 5px;
+  opacity: 1;
+  font-size: 20px;
+  color: white;
+}
+
+.comment span{
+  margin-left: 5px;
+  color: white;
+  font-size: 0;
+  transition: all 1s ease-in-out 200ms;
+}
+
+#button:hover .comment{
+  left: 30%;
+  top: 30%;
+}
+
+#button:hover .comment span{
+  font-size: 30px;
+  color: white;
+  margin-left: 5px;
+  
+}
+
+.posted{
+  position: absolute;
+  left: 15%;
+  top: 60%;
+  transition: all 1s ease-in-out 200ms;
+}
+
+#button:hover .posted{
+  left: 15%;
+  top: 60%;
+}
+
+.like{
+  position: absolute;
+  top: 60%;
+  left:40%;
+  transition: all 1s ease-in-out 200ms;
+}
+
+#button:hover .like{
+  left: 55%;
+  top: 60%;
+}
+
+.mine span{
+  margin-left: 5px;
+  color: #3cc101;
+  font-size: 20px;
+}
+
+
+
+
+

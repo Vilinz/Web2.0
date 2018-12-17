@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+  <script src="tip.js"></script>
+</head>
+<body>
+  <form method="post" action="/">
+    <div id="content"><br>
+      <div id="picture"></div>
+      <div id="head1">User Register</div>
+      <br>
+      <span>&nbsp;Username:</span><input id="name" class="input1" type="text" name="name" pattern="^[a-zA-Z][a-zA-Z0-9]{5,17}$" placeholder="字母开头的6-18位长用户名"><br><br>
+      <span>&nbsp;Studentid:</span><input id="id" class="input2" type="password" name="studentid" pattern="^[1-9][0-9]{7}$" placeholder="8位长数字"><br><br>
+      <span>&nbsp;Phone:</span><input id="phone" class="input3" type="text" name="phone" pattern="^[1-9][0-9]{10}$" placeholder="11位长数字"><br><br>
+      <span>&nbsp;Email:</span><input id="email" class="input4" type="text" name="email" pattern="^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$" placeholder="正确的邮箱"><br><br>
+      <input type="reset" value="reset" id="reset"><input type="submit" value="submit" id="submit">
+    </div>
+  </form>
+</body>
+</html>
